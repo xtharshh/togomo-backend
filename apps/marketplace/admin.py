@@ -1,0 +1,51 @@
+from django.contrib import admin
+
+from .models import (
+    Address,
+    AnalyticsSnapshot,
+    Campaign,
+    CommissionRule,
+    CouponRedemption,
+    DeliveryAgent,
+    DeliveryTask,
+    NotificationLog,
+    Coupon,
+    MealPlan,
+    MenuItem,
+    NegotiationOffer,
+    NegotiationRequest,
+    Payment,
+    Review,
+    Restaurant,
+    RestaurantBranch,
+    SupportTicket,
+    Subscription,
+    SubscriptionDay,
+    WalletTransaction,
+    UserProfile,
+    Settlement,
+)
+
+admin.site.register(UserProfile)
+admin.site.register(Address)
+admin.site.register(Restaurant)
+admin.site.register(RestaurantBranch)
+admin.site.register(MenuItem)
+admin.site.register(MealPlan)
+admin.site.register(Coupon)
+admin.site.register(CommissionRule)
+admin.site.register(Settlement)
+admin.site.register(AnalyticsSnapshot)
+admin.site.register(CouponRedemption)
+admin.site.register(Subscription)
+admin.site.register(SubscriptionDay)
+admin.site.register(NegotiationRequest)
+admin.site.register(NegotiationOffer)
+admin.site.register(Review)
+admin.site.register(SupportTicket)
+admin.site.register(DeliveryAgent)
+admin.site.register(DeliveryTask)
+admin.site.register(Payment)
+admin.site.register(WalletTransaction)
+admin.site.register(NotificationLog)
+admin.site.register(Campaign)
